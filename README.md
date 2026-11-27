@@ -45,4 +45,4 @@ Land the upstream Mathlib PR per `docs/PR.md` (byte-identical upstream-formatted
 
 ## License
 
-Licensed under the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE). CFSF: copy-free (use for any purpose) and stays-free (nobody may fence this work). The name is unclaimed in software licensing (checked 2026-11-09) and is deliberately not "Copyfree" — the Copyfree Initiative's certification mark — since CFSF's anti-enclosure condition is excluded by their standard.
+Apache-2.0 — see [LICENSE](LICENSE). The proof files have carried Apache-2.0 headers since the lane's first commits: this is an upstream-bound Mathlib contribution package (Mathlib is Apache-2.0; `docs/pr/` holds the byte-identical upstream copies), matching companion [lemma-library](https://github.com/BigO-Hunter/lemma-library) from the same upstream effort. The org's CFSF convention covers original non-upstream research lanes, not this one.
