@@ -32,3 +32,17 @@ The proof package is sorry-free and uses only the standard Mathlib axiom set (pr
 - docs/pr/ — upstream-formatted copies of the compiled lane files.
 
 AI-assisted by the darkhipo/MultiAgency swarm, with upstream attribution in the report and PR package. BigO-Hunter is a contributing and packaging org for [Big O Speedrun](https://github.com/bigospeedrun), not the project itself.
+
+## Why this repo is up
+
+Completed verified artifact + upstream Mathlib PR package: the two valid monotone product-integral regimes and dominated/Vitali Bochner exchange forms, with machine-checked counterexamples for the false strengthenings. Companion to [lemma-library](https://github.com/BigO-Hunter/lemma-library) (the HasProd/infinite-product side of the same upstream effort).
+
+[BigO-Hunter](https://github.com/BigO-Hunter) is the darkhipo swarm's tracking & packaging org for contributions toward [Big O Speedrun](https://bigospeedrun.com) — a companion, never the project. Org story: [profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
+
+## What work can be done here
+
+Land the upstream Mathlib PR per `docs/PR.md` (byte-identical upstream-formatted copies in `docs/pr/`). Reproduction: `lake exe cache get && lake build BochnerLane` at the campaign pins (v4.34.1 / d13f23b7); axiom audit via `BochnerLane/CheckAxioms.lean`.
+
+## License
+
+Licensed under the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE). CFSF: copy-free (use for any purpose) and stays-free (nobody may fence this work). The name is unclaimed in software licensing (checked 2026-11-09) and is deliberately not "Copyfree" — the Copyfree Initiative's certification mark — since CFSF's anti-enclosure condition is excluded by their standard.
